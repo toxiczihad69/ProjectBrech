@@ -1,0 +1,476 @@
+/* Global CSS  */
+.col-md-5{
+    margin-bottom: 20px;
+}
+.col-md-8{
+    margin-bottom: 20px;
+}
+.col-md-2{
+    margin-bottom: 20px;
+}
+.col-md-4{
+    margin-bottom: 20px;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+
+    -webkit-transition: 0.4s ease-in-out;
+}
+
+/* Theme CSS  */
+
+header{
+    background: url(../img/home.jpg)no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: transparent!important;;
+}
+.navbar ul li{
+    margin-left: 8px;
+}
+.nav-link{
+    color: #FBDAFC!important;
+    font-weight: 200;
+    font-weight: 500;
+    font-size: 15px;
+}
+.nav-link:hover{
+    color: white;   
+    background-color: #ff2249;
+    border: none;
+    border-radius: 30px;
+}
+/* Carousal Section  */
+.carousel{
+    position: relative;
+}
+
+.home-content {
+    position: absolute;
+    left: 18%;
+    top: 50%;
+}
+.home-content h2 {
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    word-spacing: 10px;
+}
+.home-content p {
+    font-size: 15px;
+    color: white;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.home-content button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #FD5064;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 0px 11px #292929;
+}
+
+/* About Section  */
+
+.about-section{
+    padding: 90px 0;
+}
+.about-section h2 {
+    color: #724692;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.about-section p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #364da5;
+    padding: 0px 20px;
+}
+.about-section h3 {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6C7492;
+    margin-bottom: 40px;
+}
+.about-section img:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 20px rgb(119, 119, 119);
+}
+
+/* Our Works Section  */
+
+.work-section{
+    background-color: #EFF2F9;
+    padding: 90px 0;
+}
+.work-section .row{
+    margin: 25px 0;
+}
+.work-section h2{
+    color: #724692;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.work-section p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #364da5;
+    padding: 0px 20px;
+}
+
+.work-section img:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 30px rgb(95, 95, 95);
+}
+
+.work-section button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #8492A7;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.work-section button:hover{
+    background-color: #724692;transform: scale(1.01);
+    box-shadow: 0px 0px 20px rgb(95, 95, 95);
+
+}
+
+/* Our Services Section  */
+
+.our-services-section{
+    padding: 90px 0;
+    background-color: #1E437A;
+}
+.our-services-section .row{
+    margin: 25px 0;
+}
+.our-services-section h2{
+    color: #EAEFEF;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.our-services-section p{
+    color: #6A8BBF;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+/* Card Section  */
+ 
+/* Card 1  */
+.kard1{
+    border: none;
+    border-radius: 5px!important;
+}
+.kard1:hover{
+    transform: scale(1.1);
+}
+.kard1 .card-header {
+	border-bottom: none;
+	background-color: #122746;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding-top: 60px;
+}
+.kard1 .card-header h4 {
+	color: #E6F5FF;
+	font-size: 17px;
+	font-weight: 700 !important;
+}
+.kard1 .card-header i {
+	color: #FAAF3E;
+	margin-top: 10px;
+}
+
+.kard1 .card-body{
+    background-color: #122746;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.kard1 .card-body h1{
+    color: #758DAF;
+}
+.kard1 .card-body li{
+    color: #758DAF;
+}
+.kard1 .card-body button {
+	padding: 10px 60px;
+	border: none;
+	background-color: #3CB06F;
+	color: #ECFFF2;
+	font-size: 16px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	font-weight: 600;
+}
+.kard1 .card-body button:hover{
+    background-color: #FAAF3E;
+}
+
+
+/* Card 2  */
+
+.kard2{
+    border: none;
+    border-radius: 5px!important;
+    
+}
+.kard2:hover{
+    transform: scale(0.9);
+}
+.kard2 .card-header {
+	border-bottom: none;
+	background-color: #122746;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding-top: 60px;
+}
+.kard2 .card-header h4 {
+	color: #E6F5FF;
+	font-size: 17px;
+	font-weight: 700 !important;
+}
+.kard2 .card-header i {
+	color: #FAAF3E;
+	margin-top: 10px;
+}
+
+.kard2 .card-body{
+    background-color: #122746;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.kard2 .card-body h1{
+    color: #FAAF3E;
+}
+.kard2 .card-body h1 sup{
+    color: #FAAF3E;
+}
+.kard2 .card-body h1 small{
+    color: #FAAF3E!important;
+}
+.kard2 .card-body li{
+    color: #758DAF;
+}
+.kard2 .card-body button {
+	padding: 10px 60px;
+	border: none;
+	background-color: #3CB06F;
+	color: #ECFFF2;
+	font-size: 16px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	font-weight: 600;
+}
+.kard2 .card-body button:hover{
+    background-color: #FAAF3E;
+}
+
+ /* Card 3  */
+
+ .kard3{
+    border: none;
+    border-radius: 5px!important;
+}
+.kard3:hover{
+    transform: scale(1.1);
+}
+.kard3 .card-header {
+	border-bottom: none;
+	background-color: #122746;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding-top: 60px;
+}
+.kard3 .card-header h4 {
+	color: #E6F5FF;
+	font-size: 17px;
+	font-weight: 700 !important;
+}
+.kard3 .card-header i {
+	color: #FAAF3E;
+	margin-top: 10px;
+}
+
+.kard3 .card-body{
+    background-color: #122746;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.kard3 .card-body h1{
+    color: #758DAF;
+}
+.kard3 .card-body li{
+    color: #758DAF;
+}
+.kard3 .card-body button {
+	padding: 10px 60px;
+	border: none;
+	background-color: #3CB06F;
+	color: #ECFFF2;
+	font-size: 16px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	font-weight: 600;
+}
+.kard3 .card-body button:hover{
+    background-color: #FAAF3E;
+}
+
+/* Our Blogs Section  */
+
+.our-blogs-section{
+    padding: 90px 0;
+    background-color: #FD5064;
+}
+.our-blogs-section .row{
+    margin: 25px 0;
+}
+.our-blogs-section h2{
+    color: #ECF1F5;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.our-blogs-section p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+
+.our-blogs-section img{
+    transform: scale(0.9);
+}
+.our-blogs-section img:hover{
+    transform: scale(1);
+}
+.our-blogs-section button{
+ border: none;
+padding: 10px 20px;
+background-color: #FF7380;
+color: white;
+font-size: 14px;
+font-weight: 700;
+margin-top: 20px;
+}
+.our-blogs-section button:hover{
+    transform: scale(1.1);
+}
+
+/* Contact Section  */
+
+.contact-section{
+    padding: 90px 0;
+    background: url(../img/contact.jpg)no-repeat;
+    background-size: cover;
+}
+.contact-section .row{
+    margin: 25px 0;
+}
+.contact-section h2{
+    color: #EAEFEF;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.contact-section h4 {
+	color: #6A8BBF;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0px 20px;
+}
+
+/* Form Area  */
+
+
+.form-area{}
+.form-area form{
+    float: right;
+}
+
+.form-area input {
+	display: block;
+	padding: 5px 114px 5px 15px;
+	margin: 10px 0;
+	border: none;
+	font-size: 16px;
+	background-color: #3E5372;
+	color: #9CAFBE;
+	font-weight: 500;
+}
+.form-area textarea {
+	display: block;
+	padding: 12px 0px 0px 11px;
+    margin: 10px 0;
+	border: none;
+	font-size: 16px;
+	background-color: #3E5372;
+	color: #9CAFBE;
+	font-weight: 500;
+    
+}
+.form-area button{
+    display: block;
+    float: right;
+    border: none;
+padding: 10px 20px;
+background-color: #FD5064;
+color: white;
+font-size: 14px;
+font-weight: 700;
+margin-top: 20px;
+ 
+}
+.form-area button:hover{
+    transform: scale(1.1);
+}
+
+.contact-section h5 {
+	color: #677C9B;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.contact-section p {
+	color: #DAEFFD;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.contact-info {
+	padding: 0px 50px;
+}
+.contact-section i {
+	color: white;
+	font-size: 25px;
+	margin: 56px 10px;
+}
+
+/* Footer Section  */
+
+footer{
+    padding: 20px 0;
+    background-color: #1E437A;
+}
+footer .col-md-4{
+    margin-bottom: 0;
+}
+footer img{margin: 10px 0;}
+footer h5 {
+	color: #9EB5DD;
+	font-size: 11px;
+	font-weight: 300;
+	word-spacing: 1px;
+}
